@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/js.js"></script>
+</head>
+
+<body>
+    <div class="containern">
+        <div class="contentn">
+            <div class="logo">
+                <h1>Woner's Car</h1>
+            </div>
+
+            <div class="form-group">
+                <label for="inputNome" class="form-label">Nome: </label>
+                <input type="text" class="form-control" id="inputVenda" />
+                <label for="inputNome" class="form-label">N° Cliente </label>
+                <input type="text" class="form-control" id="inputCliente" />
+                <label for="inputValorVenda" class="form-label">ADD Itens:</label>
+                <select class="form-control" id="inputAddItens">
+                    <option value="opcao1">Para-choque D Corsa 05</option>
+                    <option value="opcao2">Para-choque T Corsa 05</option>
+                    <option value="opcao3">Par Retrovisor Corsa 03-05</option>
+                </select>
+                <label for="inputValorVenda" class="form-label">Valor Venda:</label>
+                <input type="text" class="form-control" id="inputValorVenda" placeholder="R$0,00">
+
+            </div>
+            <div class="mb-3 col-5" id="obs">
+                <div class="obs">
+                    <label for="" class="form-label">Lista:</label>
+                    <textarea class="form-control" name="" id="inputObservacao" rows="7"></textarea>
+                </div>
+            </div>
+
+
+            <div class="buttonsn">
+                <button class="buttonn" id="okButton" onclick="redirecionarParaIndex()">OK</button>
+                <button class="buttonn" id="limparButton">LIMPAR</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

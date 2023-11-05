@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 53%;
+    width: 45%;
+    background-image: url('imagens/img2.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.containern {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 53%;
+    width: 45%;
+    background-image: url('imagens/img2.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(189, 189, 189, 0.8);
+    border-radius: 10px; 
+}
+
+.contentn {
+    height: 65.5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background: rgba(189, 189, 189, 0.8);
+    border-radius: 10px;
+}
+
+.name {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+    margin: -70px;
+}
+
+.name h1 {
+    font-size: 5vw;
+    color: #87CEEB;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.logo h1 {
+    font-size: 5vw;
+    color: #87CEEB;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.obs {
+    width: 80vh;
+    height: 17vh;
+}
+
+.form-group {
+    flex-direction: row;
+    width: 90%;
+    height: 100%;
+    margin: 1px;
+    text-align: left;
+}
+
+.form-groupcad {
+    flex-direction: row;
+    width: 90%;
+    height: 100%;
+    margin: 40px;
+    text-align: left;
+}
+
+.form-label {
+    font-size: 1.5vw;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    flex-direction: row;
+    display: flex;
+    width: 90%;
+    padding: 0.5vw;
+    font-size: 0.6vw;
+    margin: 1px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    resize: none;
+}
+
+.form-control#inputAddItens {
+    width: 93%;
+}
+
+.buttons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    height: 3vw 3vw;
+    width: 70%;
+    margin: 20px;
+    padding: 2vw 4vw;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 1.5vw;
+    border-radius: 10px;
+}
+
+.buttonsn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttonn {
+    padding: 1vw 2vw;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 1vw;
+    margin: 5px 130px;
+    border-radius: 10px;
+}
+
+.tabela-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+table {
+    width: 75vh;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
